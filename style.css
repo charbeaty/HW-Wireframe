@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family:"Arial", "Helvetica Neue",Helvetica, sans-serif;
     columns: #777777;
@@ -9,54 +12,84 @@ body {
     padding-right: 60px;
 }
 header {
-    background-color: #ebebeb;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    background-color: #777777;
+    padding: 25px;
+    box-sizing: border-box;
 }
 
 nav {
     background-color: #ebebeb;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 25px;
+    box-sizing: border-box;
+    margin: 10px;
 }
 
 section {
+    display: block;
     background-color: #ebebeb;
     width: 495px;
     float: left;
-    width: 50%;
-    padding: 20px, 15px, 20px, 15px'
+    width: 60%;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px;
 }
 
 aside {
+    display: block;
     background-color: #ebebeb;
+    height: 300px;
+    padding: 15px;
     float: left;
-    width: 50%;
-    height: 100px;
+    width: 20%;
+    margin: 10px;
 }
 
 footer {
     background-color: #ebebeb;
-    clear:both;
+    padding: 25px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 30%;
+    float: left;
+    margin: 10px;
 }
 
 article {
     color: #ebebeb;
-    background-color: #777;
-}
+    background-color: #777; 
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
 
+}
 h1 {
     color: #777;
     background-color: #ebebeb;
-    font-size: 12px;
+    font-size: 18px;
+    padding: 25px;
+    box-sizing: border-box;
 }
 
+h2 {
+    color: #777;
+    background-color: #ebebeb;
+    font-size: 18px;
+    padding: 15px;
+    box-sizing: border-box;
+}
 p {
     color: #777;
     background-color: #ebebeb;
-    font-size: 12px;
-    padding-top: 20px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-    padding-left: 10px;
+    font-size: 18px;
+    padding: 15px;
+    box-sizing: border-box;
 }
+.box {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+
